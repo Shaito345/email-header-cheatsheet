@@ -1,0 +1,26 @@
+Return-Path: <owner-list@lists.example.org>
+Received: from lists.example.org (lists.example.org [198.51.100.40])
+        by mx.example.com with ESMTPS; Thu, 08 Oct 2026 10:20:15 +0000
+Authentication-Results: mx.example.com;
+        arc=pass;
+        spf=pass smtp.mailfrom=lists.example.org;
+        dkim=fail header.d=example.net (body hash did not verify);
+        dmarc=fail header.from=example.net
+ARC-Seal: i=1; a=rsa-sha256; t=1791454814; cv=none;
+        d=lists.example.org; s=arc2026; b=SEALSIGNATURE
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=lists.example.org; s=arc2026; h=from:to:subject:date;
+        bh=BODYHASH; b=MESSAGESIGNATURE
+ARC-Authentication-Results: i=1; lists.example.org;
+        spf=pass smtp.mailfrom=example.net;
+        dkim=pass header.d=example.net;
+        dmarc=pass header.from=example.net
+From: "Priya Sharma" <priya@example.net>
+To: team-list@lists.example.org
+Message-ID: <20261008101950.9d8e7f@example.net>
+Date: Thu, 08 Oct 2026 10:19:50 +0000
+Subject: [Team List] Meeting notes
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+
+(Message body is not shown. The list added a footer after the original DKIM signature was made.)
