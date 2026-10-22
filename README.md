@@ -323,4 +323,4 @@ Pull requests and issues are welcome. Check [CONTRIBUTING.md](CONTRIBUTING.md) f
 
 ## License
 
-Copyright (c) 2026 SysTools Group. Licensed under the MIT License (MIT).
+Copyright (c) 2026 alexmorgansql. Licensed under the MIT License (MIT).
