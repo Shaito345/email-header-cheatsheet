@@ -26,6 +26,8 @@ Email headers show how a message travelled, which servers touched it and whether
 - [Contributing](#contributing)
 - [License](#license)
 
+Longer guides sit in the docs folder. The first one is [Message-ID in Email Headers and How to Look It Up](docs/message-id.md).
+
 ## Quick Start
 
 1. Get the full header from the original message. Forwarded copies and screenshots do not carry it.
