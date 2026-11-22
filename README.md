@@ -2,7 +2,7 @@
 
 Email headers show how a message travelled, which servers touched it and whether the sender passed authentication checks. This cheat sheet explains every common field in plain words, shows how to trace a message and lists the clues that point to a forged sender. Examples use reserved example domains and documentation IP addresses, so no real person or company appears.
 
-*Last reviewed 20 October 2026.*
+*Last reviewed 22 November 2026.*
 
 > We are the team behind MailXaminer at SysTools. Two links in the tools section point to our site and we mark them. Nothing here is legal advice.
 
@@ -26,7 +26,7 @@ Email headers show how a message travelled, which servers touched it and whether
 - [Contributing](#contributing)
 - [License](#license)
 
-Longer guides sit in the docs folder. The first one is [Message-ID in Email Headers and How to Look It Up](docs/message-id.md).
+Longer guides sit in the docs folder. The first one is [Message-ID in Email Headers and How to Look It Up](docs/message-id.md). The next one is [Can You Trace an Email Address to Its Owner](docs/trace-email-sender.md).
 
 ## Quick Start
 
